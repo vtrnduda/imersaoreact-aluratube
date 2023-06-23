@@ -60,6 +60,7 @@ const StyledHeader = styled.div`
     } */
 `;
 
+
  const StyledBanner = styled.div`
     background-color: blue;
     background-image: url(${({ bg }) => bg});
@@ -70,7 +71,7 @@ const StyledHeader = styled.div`
 function Header() {
     return (
         <StyledHeader>
-            {/* <img src="banner"/> */}
+
             {/* <div className="banner"></div> */}
             <StyledBanner bg={config.bg} />
 
