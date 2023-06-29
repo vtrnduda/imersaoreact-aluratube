@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Search from "./components/Search";
 // import DarkModeSwitch from "./components/DarkModeSwitch";
 // import Search from "./components/Search";
 
@@ -32,6 +33,7 @@ export default function Menu() {
       <div>
         <Logo />
       </div>
+      <Search/>
     </StyledMenu>
   );
 }

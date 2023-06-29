@@ -1,7 +1,7 @@
 import config from '../config.json';
 import styled from 'styled-components';
 import {CSSReset} from '../src/components/CSSReset.js';
-import Menu from '../src/components/Menu.js';
+import Menu from '../src/components/Menu';
 import { StyledTimeline } from '../src/components/Timeline.js';
 import bg from "../public/banner.jpg";
 
